@@ -1,0 +1,242 @@
+*{
+    margin: 0; padding: 0; border: none;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("fondo01.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*Barra de navegação 1 - Presentação*/
+
+nav.barra01{
+    width: 100%;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Div imagen central de portada*/
+
+div.img01{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img#imgcentral{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border: 5px solid var(--cor0);
+    border-radius: 360px;
+}
+
+/* Titulo 1 - Nombre */
+
+div.txt01{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1#titulo01{
+    font-size: 50px;
+    font-family: 'Megrim', cursive;
+    font-weight: 700;
+    color: var(--cor0);
+}
+
+/* Espaço redes sociais */
+
+section.link01{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.contlink01{
+    width: 20%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.imgred{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin: 10px;
+    background-color: var(--cor0);
+    border-radius: 360px;
+}
+
+/*Barra de navegação 2 - Menu*/
+
+nav.barra02{
+    width: 100%;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor3);
+}
+div.barramenu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--cor0);
+}
+h3.blocktxt01{
+    display: flex;
+    font-family: 'Megrim', cursive;
+    font-size: 20px;
+}
+
+/* Inicio del contenido */
+/* Articulo 1 - Informaciones basicas personales */
+
+main{
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    background-color: var(--cor4);
+}
+
+/*Container pai*/
+
+section.sect01{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*div titulo*/
+
+div.titulo02{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: var(--cor4);
+    align-items: flex-end;
+}
+h3#titulo02{
+    font-family: 'Megrim', cursive;
+    font-size: 60px;
+    display: flex; 
+    margin-left: 20px;  
+    color: var(--cor0);
+}
+/*div subtitulo*/
+
+div.titulo03{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: var(--cor4);
+}
+h3#titulo03{
+    font-family: 'Glory', sans-serif;
+    font-size: 20px;
+    display: flex;
+    margin-left: 160px;
+    color: var(--cor2);
+}
+
+/* Articulo 01 */
+
+article.article01{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+div.subarticle01{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cor4);
+}
+div.blocktxt02{
+    width: 80%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    background-color: var(--cor3);
+    text-align: justify;
+    padding: 18px;
+    margin: 18px;
+    font-family: 'Glory', sans-serif;
+    font-weight: 400;
+    color: var(--cor0);
+}
+div.boton01{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    background-color: var(--cor1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+/* Articulo 02 */
+
+div.subarticle02{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.info01{
+    width: 90%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+h3.txt01{
+    font-family: 'Glory', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cor0);
+    margin: 5px;
+}
+div.block01{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border: 1px solid var(--cor0);
+    border-radius: 20px;
+    
+}
+img.img01{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    display: flex;
+    border: 1px solid var(--cor2);
+    background-color: var(--cor0);
+    border-radius: 5px;
+}
